@@ -22,15 +22,38 @@ formatter.scenario({
 });
 formatter.step({
   "line": 5,
-  "name": "As end user i want to opne browser",
+  "name": "As end user i want to open browser and enter home url",
   "keyword": "Given "
 });
+formatter.step({
+  "line": 6,
+  "name": "click on start  button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "read registration number from inputfolder and enter",
+  "keyword": "Then "
+});
 formatter.match({
-  "location": "MyStepdefs1.dvlsWebsite()"
+  "location": "MyStepdefs.as_end_user_i_want_to_open_browser_and_enter_home_url()"
 });
 formatter.result({
-  "duration": 5500500044,
-  "error_message": "java.lang.AssertionError: expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:496)\r\n\tat org.testng.Assert.assertFalse(Assert.java:63)\r\n\tat org.testng.Assert.assertFalse(Assert.java:73)\r\n\tat cucumber.test.steps.MyStepdefs1.dvlsWebsite(MyStepdefs1.java:41)\r\n\tat ✽.Given As end user i want to opne browser(hm.feature:5)\r\n",
-  "status": "failed"
+  "duration": 4017336081,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.click_on_start_button()"
+});
+formatter.result({
+  "duration": 3613152548,
+  "status": "passed"
+});
+formatter.match({
+  "location": "MyStepdefs.read_registration_number_from_inputfolder_and_enter()"
+});
+formatter.result({
+  "duration": 1002555132,
+  "status": "passed"
 });
 });

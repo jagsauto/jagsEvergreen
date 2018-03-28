@@ -1,4 +1,4 @@
-package HomeOfficeTest;
+package Dvla;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.poi.ss.usermodel.Cell;
@@ -8,7 +8,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Iterator;
 
@@ -24,7 +23,9 @@ static File folder = new File(System.getProperty("user.dir") + "/src/main/resour
 
     }
 
-   static void findFilesInfo(File folder) throws IOException {
+   public static String findFilesInfo(File folder) throws IOException {
+
+        String value=null;
 
       String[] numberOfFiles = folder.list();
 
@@ -46,14 +47,16 @@ static File folder = new File(System.getProperty("user.dir") + "/src/main/resour
          if(FilenameUtils.getExtension(fileInFolder.toString()).equalsIgnoreCase( "csv" ) || FilenameUtils.getExtension(fileInFolder.toString()).equalsIgnoreCase( "xlsx" ) ){
 
              System.out.println("found valid files");
-             readFileContent(System.getProperty("user.dir") + "/src/main/resources/filesinfolder/"+numberOfFiles[i]);
+            value = readFileContent(System.getProperty("user.dir") + "/src/main/resources/filesinfolder/"+numberOfFiles[i]);
 
 
          }
       }
+       return value;
   }
 
-   static void readFileContent(String currentfile ) throws IOException {
+    static String readFileContent(String currentfile ) throws IOException {
+        String value=null;
        System.out.println("Pukaaa     :    " + currentfile);
       File myFile = new File(currentfile );
       FileInputStream fis = new FileInputStream( myFile );
@@ -77,24 +80,29 @@ static File folder = new File(System.getProperty("user.dir") + "/src/main/resour
 
               Cell cell = cellIterator.next();
 
-              switch (cell.getCellType()) {
-                  case Cell.CELL_TYPE_STRING:
-                      System.out.print("getStringCellValue  : " + cell.getStringCellValue() + "\t" );
-                      break;
-                  case Cell.CELL_TYPE_NUMERIC:
-                      System.out.print("getNumericCellValue : " +cell.getNumericCellValue() + "\t" );
-                      break;
-                  case Cell.CELL_TYPE_BOOLEAN:
-                      System.out.print( "getBooleanCellValue:  " + cell.getBooleanCellValue() + "\t" );
-                      break;
-                  default:
+                value = cell.getStringCellValue();
+              System.out.print("getStringCellValue  : " + cell.getStringCellValue() + "\t" );
 
-              }
+//              switch (cell.getCellType()) {
+//                  case Cell.CELL_TYPE_STRING:
+//                      System.out.print("getStringCellValue  : " + cell.getStringCellValue() + "\t" );
+//                      break;
+//                  case Cell.CELL_TYPE_NUMERIC:
+//                      System.out.print("getNumericCellValue : " +cell.getNumericCellValue() + "\t" );
+//                      break;
+//                  case Cell.CELL_TYPE_BOOLEAN:
+//                      System.out.print( "getBooleanCellValue:  " + cell.getBooleanCellValue() + "\t" );
+//                      break;
+//                  default:
+//
+//              }
           }
-          System.out.println( "" );
+
       }
 
-  }
+
+        return value;
+    }
 
 
 
