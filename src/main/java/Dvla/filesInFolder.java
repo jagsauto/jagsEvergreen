@@ -9,7 +9,10 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 
 import static org.apache.commons.lang3.BooleanUtils.or;
 
@@ -23,9 +26,9 @@ static File folder = new File(System.getProperty("user.dir") + "/src/main/resour
 
     }
 
-   public static String findFilesInfo(File folder) throws IOException {
+   public static List findFilesInfo(File folder) throws IOException {
 
-        String value=null;
+        List value=null;
 
       String[] numberOfFiles = folder.list();
 
@@ -55,9 +58,13 @@ static File folder = new File(System.getProperty("user.dir") + "/src/main/resour
        return value;
   }
 
-    static String readFileContent(String currentfile ) throws IOException {
+    static List readFileContent(String currentfile ) throws IOException {
         String value=null;
-       System.out.println("Pukaaa     :    " + currentfile);
+
+        List vehicalDetails = new ArrayList();
+
+
+        System.out.println("Pukaaa     :    " + currentfile);
       File myFile = new File(currentfile );
       FileInputStream fis = new FileInputStream( myFile );
 
@@ -80,7 +87,7 @@ static File folder = new File(System.getProperty("user.dir") + "/src/main/resour
 
               Cell cell = cellIterator.next();
 
-                value = cell.getStringCellValue();
+              vehicalDetails.add(cell.getStringCellValue());
               System.out.print("getStringCellValue  : " + cell.getStringCellValue() + "\t" );
 
 //              switch (cell.getCellType()) {
@@ -101,7 +108,7 @@ static File folder = new File(System.getProperty("user.dir") + "/src/main/resour
       }
 
 
-        return value;
+        return vehicalDetails;
     }
 
 

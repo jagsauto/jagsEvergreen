@@ -15,6 +15,7 @@ import utilities.DvlaPageObjects;
 
 import java.io.File;
 import java.lang.reflect.Array;
+import java.util.List;
 
 import static Dvla.filesInFolder.findFilesInfo;
 
@@ -41,9 +42,9 @@ public class MyStepdefs extends DvlaPageObjects {
     public void read_registration_number_from_inputfolder_and_enter() throws Throwable {
 
 
-        String reg_number = findFilesInfo(folder);
+        List reg_number = findFilesInfo(folder);
 
-        driver.findElement(enter_venicle_number).sendKeys(reg_number);
+        driver.findElement(enter_venicle_number).sendKeys("");
         driver.findElement(continue_button).submit();
        // throw new PendingException();
     }

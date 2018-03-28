@@ -39,21 +39,16 @@ formatter.match({
   "location": "MyStepdefs.as_end_user_i_want_to_open_browser_and_enter_home_url()"
 });
 formatter.result({
-  "duration": 4017336081,
+  "duration": 10756320080,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.click_on_start_button()"
 });
 formatter.result({
-  "duration": 3613152548,
+  "duration": 2873693249,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.read_registration_number_from_inputfolder_and_enter()"
-});
-formatter.result({
-  "duration": 1002555132,
-  "status": "passed"
-});
 });
