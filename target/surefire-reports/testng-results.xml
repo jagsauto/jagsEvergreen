@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="5475" started-at="2018-03-28T12:14:26Z" finished-at="2018-03-28T12:14:31Z">
+  <suite name="Surefire suite" duration-ms="679" started-at="2018-03-28T14:59:14Z" finished-at="2018-03-28T14:59:15Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunCukesTest@26a7b76d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunCukesTest@23d2a7e8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="5475" started-at="2018-03-28T12:14:26Z" finished-at="2018-03-28T12:14:31Z">
+    <test name="Surefire test" duration-ms="679" started-at="2018-03-28T14:59:14Z" finished-at="2018-03-28T14:59:15Z">
       <class name="RunCukesTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunCukesTest@26a7b76d]" name="setUpClass" is-config="true" duration-ms="312" started-at="2018-03-28T13:14:26Z" finished-at="2018-03-28T13:14:26Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:RunCukesTest@23d2a7e8]" name="setUpClass" is-config="true" duration-ms="335" started-at="2018-03-28T15:59:14Z" finished-at="2018-03-28T15:59:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunCukesTest@26a7b76d]" name="feature" duration-ms="4949" started-at="2018-03-28T13:14:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-03-28T13:14:31Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:RunCukesTest@23d2a7e8]" name="feature" duration-ms="120" started-at="2018-03-28T15:59:15Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-03-28T15:59:15Z">
           <params>
             <param index="0">
               <value>
@@ -24,10 +24,12 @@
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]]]>
+              <![CDATA[cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'cucumber.test.steps.MyStepdefs1.dvlsWebsite(Array[]) in file:/C:/Users/jvendi/Downloads/GITJagsPracticeFrom/jagsEvergreen/target/test-classes/' with pattern [^As end user i want to opne browser$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: Given As end user i want to opne browser]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [false] but found [true]
+              <![CDATA[cucumber.runtime.CucumberException: cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'cucumber.test.steps.MyStepdefs1.dvlsWebsite(Array[]) in file:/C:/Users/jvendi/Downloads/GITJagsPracticeFrom/jagsEvergreen/target/test-classes/' with pattern [^As end user i want to opne browser$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: Given As end user i want to opne browser
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -59,20 +61,25 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-Caused by: java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertFalse(Assert.java:63)
-	at org.testng.Assert.assertFalse(Assert.java:73)
-	at cucumber.test.steps.MyStepdefs1.dvlsWebsite(MyStepdefs1.java:38)
-	at ?.Given As end user i want to opne browser(hm.feature:5)
+Caused by: cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'cucumber.test.steps.MyStepdefs1.dvlsWebsite(Array[]) in file:/C:/Users/jvendi/Downloads/GITJagsPracticeFrom/jagsEvergreen/target/test-classes/' with pattern [^As end user i want to opne browser$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: Given As end user i want to opne browser
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	... 30 more
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunCukesTest@26a7b76d]" name="tearDownClass" is-config="true" duration-ms="113" started-at="2018-03-28T13:14:31Z" finished-at="2018-03-28T13:14:31Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:RunCukesTest@23d2a7e8]" name="tearDownClass" is-config="true" duration-ms="109" started-at="2018-03-28T15:59:15Z" finished-at="2018-03-28T15:59:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

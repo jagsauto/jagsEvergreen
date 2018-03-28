@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 28 13:14:26 BST 2018</td>
+<td>Started on:</td><td>Wed Mar 28 15:59:14 BST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5475 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (679 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,14 +76,25 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='RunCukesTest.feature()'><b>feature</b><br>Test class: RunCukesTest<br>Test method: Runs Cucumber Feature<br>Parameters: dvla</td>
-<td><div><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [false] but found [true]
+<td><div><pre>cucumber.runtime.CucumberException: cucumber.runtime.CucumberException: Arity mismatch: Step Definition &apos;cucumber.test.steps.MyStepdefs1.dvlsWebsite(Array[]) in file:/C:/Users/jvendi/Downloads/GITJagsPracticeFrom/jagsEvergreen/target/test-classes/&apos; with pattern [^As end user i want to opne browser$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: Given As end user i want to opne browser
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-Caused by: java.lang.AssertionError: expected [false] but found [true]
-	at cucumber.test.steps.MyStepdefs1.dvlsWebsite(MyStepdefs1.java:38)
-	at ?.Given As end user i want to opne browser(hm.feature:5)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1276544608", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1276544608'><pre>cucumber.runtime.CucumberException: java.lang.AssertionError: expected [false] but found [true]
+Caused by: cucumber.runtime.CucumberException: Arity mismatch: Step Definition &apos;cucumber.test.steps.MyStepdefs1.dvlsWebsite(Array[]) in file:/C:/Users/jvendi/Downloads/GITJagsPracticeFrom/jagsEvergreen/target/test-classes/&apos; with pattern [^As end user i want to opne browser$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: Given As end user i want to opne browser
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	... 30 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace461698165", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace461698165'><pre>cucumber.runtime.CucumberException: cucumber.runtime.CucumberException: Arity mismatch: Step Definition &apos;cucumber.test.steps.MyStepdefs1.dvlsWebsite(Array[]) in file:/C:/Users/jvendi/Downloads/GITJagsPracticeFrom/jagsEvergreen/target/test-classes/&apos; with pattern [^As end user i want to opne browser$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: Given As end user i want to opne browser
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -115,16 +126,21 @@ Caused by: java.lang.AssertionError: expected [false] but found [true]
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-Caused by: java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertFalse(Assert.java:63)
-	at org.testng.Assert.assertFalse(Assert.java:73)
-	at cucumber.test.steps.MyStepdefs1.dvlsWebsite(MyStepdefs1.java:38)
-	at ?.Given As end user i want to opne browser(hm.feature:5)
+Caused by: cucumber.runtime.CucumberException: Arity mismatch: Step Definition &apos;cucumber.test.steps.MyStepdefs1.dvlsWebsite(Array[]) in file:/C:/Users/jvendi/Downloads/GITJagsPracticeFrom/jagsEvergreen/target/test-classes/&apos; with pattern [^As end user i want to opne browser$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. 
+Step: Given As end user i want to opne browser
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:102)
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:60)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	... 30 more
 </pre></div></td>
-<td>4</td>
-<td>RunCukesTest@26a7b76d</td></tr>
+<td>0</td>
+<td>RunCukesTest@23d2a7e8</td></tr>
 </table><p>
 </body>
 </html>
