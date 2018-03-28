@@ -15,7 +15,7 @@ public class MyStepdefs1 {
 
 
     @Given("^As end user i want to opne browser$")
-    public void dvlsWebsite(Array a[]) throws Throwable {
+    public void dvlsWebsite() throws Throwable {
 
         WebDriver   driver = getChromeDriver();
 
