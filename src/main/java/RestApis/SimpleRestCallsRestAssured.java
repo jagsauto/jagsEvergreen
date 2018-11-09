@@ -1,4 +1,4 @@
-package TestNg;
+package RestApis;
 
 import static org.hamcrest.core.IsEqual.equalTo;
 

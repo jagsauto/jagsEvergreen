@@ -1,9 +1,11 @@
-package TestNg;
+package RestApis;
+
+import org.testng.annotations.Test;
+
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.api.client.WebResourceLinkHeaders;
-import org.testng.annotations.Test;
 
 
 
