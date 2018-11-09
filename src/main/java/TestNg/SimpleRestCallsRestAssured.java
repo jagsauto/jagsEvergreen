@@ -1,19 +1,24 @@
 package TestNg;
+
+import static org.hamcrest.CoreMatchers.containsString;
+
+import static com.jayway.restassured.RestAssured.given;
+
 import org.testng.annotations.Test;
 
-import static com.google.common.base.Predicates.equalTo;
+/*
+GET URL : https://reqres.in/api/users/2
 
-
-//import static com.jayway.restassured.RestAssured.given;
-
+ */
 
 public class SimpleRestCallsRestAssured {
 
     @Test
-    public void getRest(){
-
-   //given().when().get("http://www.google.com").then().statusCode(200);
-     //   get("/events?id=390").then().statusCode(200).assertThat().body("data.leagueId", equalTo(35));
+    public void makeSureThatGoogleIsUp() {
+        String expectedJson = "{\"data\":{\"id\":2,\"first_name\":\"Janet\",\"last_name\":\"Weaver\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\"}}";
+        String getEndPoint = "https://reqres.in/api/users/2";
+        given().when().get(getEndPoint).then().statusCode(200);
+        given().when().get(getEndPoint).then().body(containsString("Janet"));
     }
 
 }
