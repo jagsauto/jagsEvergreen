@@ -1,21 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a6b72ec-d148-47db-937a-d7ef24fdb76d" name="Default" comment="commit">
+    <list default="true" id="c9347b41-a7d0-4475-87c0-88beece4d4af" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestExamples/RestAssureExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_btf_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_jackson_coreutils_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_json_schema_core_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_json_schema_validator_2_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_msg_simple_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_uri_template_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_libphonenumber_libphonenumber_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_testng_1_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_schema_validator_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mailapi_1_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_3_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_platform_3_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20080701.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mozilla_rhino_1_7R4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_39_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_39_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_37_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_37_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jagsEvergreenPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jagsEvergreenPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jagsEvergreenPractice.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HomeOfficeTest/RunCukesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HomeOfficeTest/WebDriverSimple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HomeOfficeTest/filesInFolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InterfacesAbstractClass/Bike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InterfacesAbstractClass/Bike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Oops/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Oops/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestNg/SimpleRestCallsJersey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestNg/SimpleRestCallsJersey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestNg/SimpleRestCallsRestAssured.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestNg/SimpleRestCallsRestAssured.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestNg/SimpleTestNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestNg/SimpleTestNG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestNg/WebDriverSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestNg/WebDriverSimple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNg/SimpleRestCallsJersey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestExamples/SimpleRestCallsJersey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNg/SimpleRestCallsRestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestExamples/SimpleRestCallsRestAssured.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNg/SimpleTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestExamples/SimpleTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNg/WebDriverSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RestExamples/WebDriverSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestNg/SimpleRestCallsJersey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestNg/SimpleRestCallsRestAssured.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestNg/SimpleTestNG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestNg/WebDriverSimple.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,73 +96,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Oops/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-              <folding>
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriverSimple.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestNg/WebDriverSimple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleRestCallsJersey.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestNg/SimpleRestCallsJersey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileReader.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="149" column="45" selection-start-line="149" selection-start-column="45" selection-end-line="149" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="javaLatest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Oops/javaLatest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleTestNG.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RestExamples/SimpleTestNG.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestAssureExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RestExamples/RestAssureExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matchers.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar!/org/hamcrest/Matchers.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="245" column="50" selection-start-line="245" selection-start-column="35" selection-end-line="245" selection-end-column="50" />
+              <folding>
+                <element signature="e#6724#6725#0" expanded="true" />
+                <element signature="e#6771#6772#0" expanded="true" />
+                <element signature="e#8350#8351#0" expanded="true" />
+                <element signature="e#8414#8415#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidatableResponseOptions.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar!/com/jayway/restassured/response/ValidatableResponseOptions.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="91" column="26" lean-forward="true" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matcher.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/Matcher.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -102,78 +167,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>project</find>
-      <find>emp</find>
-      <find>.jar</find>
-      <find>mojo</find>
-      <find>runc</find>
-      <find>1.8</find>
-      <find>jvm</find>
-      <find>saucelabs</find>
-      <find>cucumber-jvm</find>
-      <find>jxl</find>
-      <find>1.0.5</find>
-      <find>cucumber-core</find>
-      <find>opne browser</find>
-      <find>RunCukesTest</find>
-      <find>picocontainer</find>
-      <find>cucumber</find>
-      <find>.x</find>
+      <find>has</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/steps/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HomeOfficeTest/RunCukesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumber/steps/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumber/test/tests/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumber/test/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RunCukesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumber/test/MyStepdefs1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumber/test/RunCukesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HomeOfficeTest/filesInFolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestNg/SimpleRestCallsJersey.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumber/test/steps/MyStepdefs1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/DvlsPageObjects.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/DvlaPageObjects.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/ChooseBrowser.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/feature/hm.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/Oops/WebDriverSimple.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dvla/filesInFolder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cucumber/test/steps/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dvla/ExcelToList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Oops/excel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Oops/x.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Oops/selenium.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Oops/Constant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testData/Constant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utility/ExcelUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utility/Constant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/appModules/SignIn_Action.java" />
-        <option value="$PROJECT_DIR$/src/main/java/automationFramework/Apache_POI_TC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dvla/excelread1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InterfacesAbstractClass/Honda4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InterfacesAbstractClass/Bike.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Oops/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestNg/WebDriverSimple.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/files/first.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/Utilities/readcsv.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Utilities/readcsvtemp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Oops/java8Lambda.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Oops/javaLatest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RestExamples/SimpleTestNG.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/RestExamples/RestAssureExample.java" />
       </list>
     </option>
   </component>
@@ -184,37 +200,18 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="740" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Android</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,52 +243,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Oops" type="462c0819:PsiDirectoryNode" />
+              <item name="RestExamples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jagsEvergreenPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="jagsEvergreen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jagsEvergreenPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jagsEvergreen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="Oops" />
-      <recent name="TestNg" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/testData" />
-      <recent name="C:\Users\jvendi\Downloads\GITJagsPracticeFrom\jagsEvergreen\src\test\resources\feature" />
-      <recent name="C:\Users\jvendi\Downloads\GITJagsPracticeFrom\jagsEvergreen\src\test\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Utilities" />
-      <recent name="cucumber.test.steps" />
-      <recent name="cucumber.test" />
-      <recent name="" />
-      <recent name="cucumber.steps" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jvendi\Downloads\GITJagsPracticeFrom\jagsEvergreen\src\test" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -305,67 +275,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.javaLatest">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oops.HelloWorld" />
-      <module name="jagsEvergreenPractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="WebDriverSimple (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestNg.WebDriverSimple" />
-      <module name="jagsEvergreenPractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="TestNG.RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="java8Lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oops.java8Lambda" />
-      <module name="jagsEvergreenPractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="javaLatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oops.javaLatest" />
-      <module name="jagsEvergreenPractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="readcsv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Utilities.readcsv" />
-      <module name="jagsEvergreenPractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Utilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -383,56 +295,150 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="IntegrationTest" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="integration-test" />
-                <option value="-Pcucumber" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
+    <configuration name="RestAssureExample.givenUrl_whenSuccessOnGetsResponseAndJsonHasRequiredKV_thenCorrect" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jagsEvergreenPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="RestExamples" />
+      <option name="MAIN_CLASS_NAME" value="RestExamples.RestAssureExample" />
+      <option name="METHOD_NAME" value="givenUrl_whenSuccessOnGetsResponseAndJsonHasRequiredKV_thenCorrect" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
-    <configuration name="MavenGeneric" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="integration-test" />
-                <option value="-Pcucumber" />
-                <option value="-Dcucumber.options=--tags @hmp  --plugin  html:target/cucumber/SI/Health/   --plugin  json:target/cucumber/SI/Health/cucumber.json" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
+    <configuration name="RestAssureExample.makeSureThatGoogleIsUp" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jagsEvergreenPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="RestExamples" />
+      <option name="MAIN_CLASS_NAME" value="RestExamples.RestAssureExample" />
+      <option name="METHOD_NAME" value="makeSureThatGoogleIsUp" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jagsEvergreenPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="RestExamples" />
+      <option name="MAIN_CLASS_NAME" value="RestExamples.RestAssureExample" />
+      <option name="METHOD_NAME" value="test_NumberOfCircuitsFor2017Season_ShouldBe20" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="RestAssureExample.verifyNameOfGarage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jagsEvergreenPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="RestExamples" />
+      <option name="MAIN_CLASS_NAME" value="RestExamples.RestAssureExample" />
+      <option name="METHOD_NAME" value="verifyNameOfGarage" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="SimpleTestNG.simpleTestNG" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jagsEvergreenPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="TestNg" />
+      <option name="MAIN_CLASS_NAME" value="RestExamples.SimpleTestNG" />
+      <option name="METHOD_NAME" value="simpleTestNG" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -456,190 +462,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="jagsEvergreenPractice" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <list>
-      <item itemvalue="Maven.IntegrationTest" />
-      <item itemvalue="Maven.MavenGeneric" />
-      <item itemvalue="Application.HelloWorld" />
-      <item itemvalue="Application.WebDriverSimple (1)" />
-      <item itemvalue="Application.readcsv" />
-      <item itemvalue="Application.java8Lambda" />
-      <item itemvalue="Application.javaLatest" />
+      <item itemvalue="TestNG.SimpleTestNG.simpleTestNG" />
+      <item itemvalue="TestNG.RestAssureExample.makeSureThatGoogleIsUp" />
+      <item itemvalue="TestNG.RestAssureExample.verifyNameOfGarage" />
+      <item itemvalue="TestNG.RestAssureExample.givenUrl_whenSuccessOnGetsResponseAndJsonHasRequiredKV_thenCorrect" />
+      <item itemvalue="TestNG.RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.javaLatest" />
-        <item itemvalue="Application.java8Lambda" />
-        <item itemvalue="Application.readcsv" />
-        <item itemvalue="Application.WebDriverSimple (1)" />
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="TestNG.RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" />
+        <item itemvalue="TestNG.RestAssureExample.givenUrl_whenSuccessOnGetsResponseAndJsonHasRequiredKV_thenCorrect" />
+        <item itemvalue="TestNG.RestAssureExample.verifyNameOfGarage" />
+        <item itemvalue="TestNG.RestAssureExample.makeSureThatGoogleIsUp" />
+        <item itemvalue="TestNG.SimpleTestNG.simpleTestNG" />
       </list>
     </recent_temporary>
   </component>
@@ -648,268 +484,156 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5a6b72ec-d148-47db-937a-d7ef24fdb76d" name="Default" comment="" />
-      <created>1522171005995</created>
+      <changelist id="c9347b41-a7d0-4475-87c0-88beece4d4af" name="Default" comment="" />
+      <created>1543268137290</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1522171005995</updated>
+      <updated>1543268137290</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunCukesTest - 2018.03.28 at 20h 58m 26s.xml">
-      <configuration name="RunCukesTest" configurationId="TestNG" />
+    <history-entry file="RestAssureExample_test_NumberOfCircuitsFor2017Season_ShouldBe20 - 2018.11.26 at 23h 35m 37s.xml">
+      <configuration name="RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.03.28 at 21h 00m 25s.xml">
-      <configuration name="RunCukesTest" configurationId="TestNG" />
+    <history-entry file="RestAssureExample_test_NumberOfCircuitsFor2017Season_ShouldBe20 - 2018.11.26 at 23h 36m 03s.xml">
+      <configuration name="RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.03.28 at 21h 02m 57s.xml">
-      <configuration name="RunCukesTest" configurationId="TestNG" />
+    <history-entry file="RestAssureExample_test_NumberOfCircuitsFor2017Season_ShouldBe20 - 2018.11.26 at 23h 38m 14s.xml">
+      <configuration name="RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.03.28 at 21h 03m 48s.xml">
-      <configuration name="RunCukesTest" configurationId="TestNG" />
+    <history-entry file="RestAssureExample_test_NumberOfCircuitsFor2017Season_ShouldBe20 - 2018.11.26 at 23h 40m 32s.xml">
+      <configuration name="RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.03.28 at 21h 06m 37s.xml">
-      <configuration name="RunCukesTest" configurationId="TestNG" />
+    <history-entry file="RestAssureExample_test_NumberOfCircuitsFor2017Season_ShouldBe20 - 2018.11.26 at 23h 44m 59s.xml">
+      <configuration name="RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.03.28 at 21h 08m 15s.xml">
-      <configuration name="RunCukesTest" configurationId="TestNG" />
+    <history-entry file="RestAssureExample_test_NumberOfCircuitsFor2017Season_ShouldBe20 - 2018.11.26 at 23h 48m 09s.xml">
+      <configuration name="RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.03.28 at 21h 29m 08s.xml">
-      <configuration name="RunCukesTest" configurationId="TestNG" />
+    <history-entry file="RestAssureExample_test_NumberOfCircuitsFor2017Season_ShouldBe20 - 2018.11.26 at 23h 49m 14s.xml">
+      <configuration name="RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.03.28 at 21h 29m 47s.xml">
-      <configuration name="RunCukesTest" configurationId="TestNG" />
+    <history-entry file="RestAssureExample_test_NumberOfCircuitsFor2017Season_ShouldBe20 - 2018.11.26 at 23h 49m 49s.xml">
+      <configuration name="RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCukesTest - 2018.03.28 at 22h 31m 35s.xml">
-      <configuration name="RunCukesTest" configurationId="TestNG" />
+    <history-entry file="RestAssureExample_test_NumberOfCircuitsFor2017Season_ShouldBe20 - 2018.11.26 at 23h 54m 24s.xml">
+      <configuration name="RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RunCukesTest_(1) - 2018.04.12 at 19h 45m 55s.xml">
-      <configuration name="RunCukesTest (1)" configurationId="TestNG" />
+    <history-entry file="RestAssureExample_test_NumberOfCircuitsFor2017Season_ShouldBe20 - 2018.11.26 at 23h 56m 05s.xml">
+      <configuration name="RestAssureExample.test_NumberOfCircuitsFor2017Season_ShouldBe20" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="740" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49757674" weight="0.3592535" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50080776" side_tool="true" visible="true" weight="0.3281493" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49596122" weight="0.32503888" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49919224" visible="true" weight="0.3281493" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4275862" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22455573" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32275862" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994465" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Properties" order="4" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/Dvla/filesInFolder.java</url>
-          <line>20</line>
-          <properties field="folder" class="Dvla.filesInFolder" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Dvla/filesInFolder.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumber/test/steps/MyStepdefs.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Dvla/excelread1.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Oops/javaLatest.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="7" />
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="TestNG">
-        <watch expression="value" />
-      </configuration>
-      <configuration name="Application">
-        <watch expression="FilenameUtils.getExtension(fileInFolder.toString()).equalsIgnoreCase( &quot;csv&quot; )" />
-        <watch expression="FilenameUtils.getExtension(fileInFolder.toString()" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dvla/filesInFolder.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/RunCukesTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/hm.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/steps/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Oops/WebDriverSimple.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7208">
-          <caret line="424" column="21" selection-start-line="424" selection-start-column="21" selection-end-line="424" selection-end-column="26" />
+        <state relative-caret-position="315">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../LakeDist Itienrary.gsheet" />
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-testng/1.1.5/cucumber-testng-1.1.5-sources.jar!/cucumber/api/testng/AbstractTestNGCucumberTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/HomeOfficeTest/RunCukesTest1.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/steps/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/test/tests/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/test/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/RunCukesTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/test/steps/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/test/MyStepdefs1.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.2/commons-io-2.2-sources.jar!/org/apache/commons/io/FilenameUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/test/RunCukesTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/DvlaPageObjects.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/ChooseBrowser.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Oops/WebDriverSimple.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/hm.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/RestExamples/SimpleTestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar!/com/jayway/restassured/specification/RequestSenderOptions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dvla/ExcelToList.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/awt/print/Book.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dvla/filesInFolder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Oops/ExcelUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Oops/Constant.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Oops/SignIn_Action.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/cucumber/test/steps/MyStepdefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/Constant.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/ExcelUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/appModules/SignIn_Action.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/automationFramework/Apache_POI_TC.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dvla/excelread1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/InterfacesAbstractClass/Singleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/InterfacesAbstractClass/Honda4.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Oops/HelloWorld.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar!/org/hamcrest/collection/IsCollectionWithSize.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/Matcher.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/core/StringContains.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestNg/SimpleTestNG.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar!/com/jayway/restassured/response/ValidatableResponseOptions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="91" column="26" lean-forward="true" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestNg/SimpleRestCallsRestAssured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/files/first.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestNg/SimpleRestCallsJersey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InterfacesAbstractClass/Bike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HomeOfficeTest/WebDriverSimple.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestNg/WebDriverSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/readcsv.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/readcsvtemp.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileInputStream.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar!/org/hamcrest/Matchers.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
-          <caret line="149" column="45" selection-start-line="149" selection-start-column="45" selection-end-line="149" selection-end-column="45" />
+          <caret line="245" column="50" selection-start-line="245" selection-start-column="35" selection-end-line="245" selection-end-column="50" />
+          <folding>
+            <element signature="e#6724#6725#0" expanded="true" />
+            <element signature="e#6771#6772#0" expanded="true" />
+            <element signature="e#8350#8351#0" expanded="true" />
+            <element signature="e#8414#8415#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/RestExamples/RestAssureExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Oops/javaLatest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="376">
+          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -919,7 +643,7 @@
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

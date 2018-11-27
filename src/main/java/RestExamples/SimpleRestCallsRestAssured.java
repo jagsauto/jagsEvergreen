@@ -1,4 +1,4 @@
-package TestNg;
+package RestExamples;
 
 import static org.hamcrest.CoreMatchers.containsString;
 
